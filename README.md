@@ -11,6 +11,7 @@ go install github.com/jackc/tern/v2@latest
 go install github.com/sqlc-dev/sqlc/cmd/sqlc@latest
 
 # rodar main.go
+docker precisa estar rodando
 go run cmd/tools/terndotenv/main.go
 
 # iniciar docker
